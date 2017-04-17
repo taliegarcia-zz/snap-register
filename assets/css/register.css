@@ -1,0 +1,124 @@
+html {
+  font-size: 100%; }
+
+body {
+  font-size: 16px;
+  font-size: 1rem; }
+
+body {
+  background-color: #fbfbfb;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #5d5a5a;
+  padding-top: 3rem;
+  padding-bottom: 16rem; }
+
+.form-header {
+  text-align: center; }
+  .form-header p {
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-style: italic;
+    color: #999; }
+
+.shadow-box {
+  text-align: left;
+  margin: 0.7em auto;
+  overflow: hidden;
+  width: 33.12rem;
+  background-color: #feffff;
+  box-shadow: 0px 0px 4px 2px #ddd; }
+
+.progress-bar-wrapper {
+  border-radius: 0px;
+  border: 1px;
+  height: 0.8rem; }
+  .progress-bar-wrapper .progress-status {
+    width: 0%;
+    background-color: #87C632; }
+
+form label {
+  color: #ddd;
+  display: block;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #ddd; }
+
+form label.col-half {
+  float: left;
+  width: 50%; }
+
+form label.col-half:nth-of-type(even) {
+  border-left: 1px solid #ddd;
+  padding-left: 0.25rem; }
+
+form label input {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  line-height: 3rem;
+  padding: 0.125rem 1rem;
+  width: 100%; }
+
+form label input:focus {
+  outline: none; }
+
+form label input:-webkit-autofill {
+  background-color: transparent !important; }
+
+form label span.label-text {
+  display: block;
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+  font-weight: 100; }
+
+form label.password {
+  position: relative; }
+
+form label.password button.toggle-visibility {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  position: absolute;
+  top: 50%;
+  right: 0.5fem;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s; }
+
+form label.password button.toggle-visibility:active {
+  color: #000;
+  outline: none; }
+
+.help-block {
+  color: red;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  font-weight: 100; }
+
+.form-note {
+  color: #bbc;
+  line-height: 1.2rem;
+  padding-left: 2.7rem;
+  padding-top: 2.2rem;
+  padding-bottom: 2.7rem;
+  padding-right: 5.25rem; }
+
+.col-button {
+  padding: 1.4rem 0; }
+
+.btn-signup {
+  font-size: 1.3rem;
+  border: none;
+  border-radius: 0.2rem;
+  background-color: #87C632;
+  color: white;
+  padding: 1.1rem 2.2rem; }
+
+/*# sourceMappingURL=register.css.map */

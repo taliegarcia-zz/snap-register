@@ -1,0 +1,87 @@
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+    <link rel="stylesheet" href="assets/css/register.css">
+    <title>Sign Up for SnapDocs</title>
+</head>
+
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 form-header">
+            <h2 class="progress-title" id="progress-title">
+                Let's get started.
+            </h2>
+            <p class="progress-message" id="progress-message">
+                Enter your information below.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="shadow-box progress-bar-wrapper">
+                <div class="progress-bar progress-status" id="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <form class="signup-form shadow-box" id="signup-form" accept-charset="UTF-8" action="#" method="post">
+
+                <div class="row">
+                    <label class="col col-half" for="first-name">
+                        <span class="label-text">First Name</span>
+                        <input type="text" name="firstName" id="first-name" required="required">
+                    </label>
+                    <label class="col col-half" for="last-name">
+                        <span class="label-text">Last Name</span>
+                        <input type="text" name="lastName" id="last-name" required="required">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label for="email" class="col">
+                        <span class="label-text">Email</span>
+                        <input type="text" name="email" id="email" required="required">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col password" for="password">
+                        <span class="label-text">Password</span>
+                        <input type="password" name="password" class="toggle-visibility" id="password" required="required">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <label class="col password" for="passwordConfirm">
+                        <span class="label-text">Confirm Password</span>
+                        <input type="password" name="passwordConfirm" id="passwordConfirm" class="toggle-visibility" required="required">
+                    </label>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-8 form-note">
+                        This is serious. Don't click that button unless you really mean it.
+                    </div>
+                    <div class="col-sm-4 col-button">
+                        <button class="submit btn-signup" name="signUp">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="scripts/progress.js" defer></script>
+<script type="text/javascript" src="scripts/validator.js" defer></script>
+</body>
+</html>
